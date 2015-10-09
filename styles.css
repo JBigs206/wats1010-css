@@ -1,6 +1,58 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
+body {
+	
+	font-family: serif;
+	background-color: black;
+}
 
-h1 {
-    color: green;
+h1,h2,h3,h4,h5,h6 {
+	font-family: sans-serif;
+}
+
+header.page-header {
+	background-image: url("images/sand.jpg");
+	
+	padding: 2rem;
+	color: red;
+}
+.page-header h1 {
+	margin-bottom: 0;
+}
+.page-header p {
+	margin-top: 0;
+}
+.page-header small {
+	font-size: medium;
+}
+aside.more-info {
+	background-image: url("images/Xanadu_on_Map_of_Asia.JPG"); 
+	color:blue;
+	padding-left:25px;
+}
+aside.more-info img {
+	width: 150px;
+	height: auto;
+}
+section#content {
+	color: Darkblue;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000, 3px 6px 5px white; 
+	background-image: url("images/hiking-the-sand-dunes.jpg");
+	background-size: 1550px 1500px;
+	background-repeat: no-repeat;
+}
+
+.poem {
+	list-style-type: none;
+}
+.poem li {
+	font-size: large;
+	line-height: 1.5;
+}
+footer.page-footer {
+	background-image: url("images/sand.jpg");
+	padding-left: 25px;
+	color: blue;
 }
